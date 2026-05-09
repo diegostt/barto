@@ -1081,7 +1081,8 @@ textarea {
 
 .aside-card__list li>span:last-child {
     text-align: right;
-    line-height: 1.55
+    line-height: 1.55;
+    white-space: nowrap
 }
 
 .aside-card__closed {
@@ -1210,7 +1211,9 @@ textarea {
 .footer__schedule-hours {
     font-size: 0.78rem;
     color: rgba(245, 247, 250, 0.45);
-    line-height: 1.6
+    line-height: 1.6;
+    white-space: nowrap;
+    text-align: right
 }
 
 .footer__socials {
